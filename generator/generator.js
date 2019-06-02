@@ -711,7 +711,7 @@ setInterval(() => {
   let estimatedGas;
   let nonce;
   console.log("Getting gas estimate");
-  contractFunction.estimateGas({from: adminAddress}).then((gasAmount) => {  /
+  contractFunction.estimateGas({from: adminAddress}).then((gasAmount) => {  
     estimatedGas = gasAmount.toString(16);
     console.log("Estimated gas: " + estimatedGas);
     web3.eth.getTransactionCount(adminAddress).then(_nonce => {
