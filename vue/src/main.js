@@ -15,13 +15,13 @@ Vue.config.productionTip = false
 
 let app;
 let firebaseConfig = {
-  apiKey: "AIzaSyAmEu45n364d-NLcbxqRp4ITmMdTr3Sx4U",
-  authDomain: "tokenexchanger-2d18b.firebaseapp.com",
-  databaseURL: "https://tokenexchanger-2d18b.firebaseio.com",
-  projectId: "tokenexchanger-2d18b",
-  storageBucket: "tokenexchanger-2d18b.appspot.com",
-  messagingSenderId: "458979221012",
-  appId: "1:458979221012:web:8d828565a7f6682c"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "
+  appId: ""
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
