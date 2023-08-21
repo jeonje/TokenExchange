@@ -1,35 +1,31 @@
 # 스마트 컨트랙트를 이용한 탈중앙화된 블록체인 토큰 교환 시스템
 
 - 기간: 2018년 8월 1일 → 2019년 5월 31일
-- 태그: 백엔드, 블록체인, 토큰 교환
+
 
 ## 🧐Overview
 
----
+
 
 - 약 8개월 동안 산학연계 소프트웨어 프로젝트(졸업작품)을 진행하며 Extales 기업과 함께 탈 중앙화된 블록체인 토큰 교환 시스템 개발
-- 소스코드
-    - [https://github.com/jeonje/TokenExchange](https://github.com/jeonje/TokenExchange)
-- 시연영상
-    - https://youtu.be/ioeBkRU5ckE
-
+- [소스코드](https://github.com/jeonje/TokenExchange)
+- [시연영상](https://youtu.be/ioeBkRU5ckE)
 - [최종결과물 동영상](https://youtu.be/ioeBkRU5ckE)
 
 ## 🙄Goal
 
----
-
-1. 블록체인 네트워크에 스마트 컨트랙트를 배포하여 탈 중앙화된 ERC20 토큰 교환 시스템을 개발한다.
-2. 개발 비용 제약으로 인해 실제 토큰을 이용할 수 없기 때문에 임의의 토큰을 발행하며 임의의 토큰에 대한 환율정보를 생성하는 데몬을 개발하여 사용한다.
+1. 블록체인 네트워크에 스마트 컨트랙트를 배포하여 탈 중앙화된 ERC20 토큰 교환 시스템을 개발
+2. 개발 비용 제약으로 인해 실제 토큰을 이용할 수 없기 때문에 임의의 토큰을 발행하며 임의의 토큰에 대한 환율정보를 생성하는 데몬을 개발하여 사용
 3. 구현 항목
-  가) 토큰 교환 및 부가적 기능을 가진 스마트컨트랙트 작성 및 블록체인 네트워크에 배포
-  나) 스마트 컨트랙트와 연동하는 프론트엔드 개발
-  다) 임의의 토큰 환율을 제공하는 제너레이터 개발
-  라) Dapp에 필요한 부수적 기능 개발
+가) 토큰 교환 및 부가적 기능을 가진 스마트컨트랙트 작성 및 블록체인 네트워크에
+배포
+나) 스마트 컨트랙트와 연동하는 프론트엔드 개발
+다) 임의의 토큰 환율을 제공하는 제너레이터 개발
+라) Dapp에 필요한 부수적 기능 개발
 
 ## 😤stack
 
----
+
 
 1) 프론트엔드 : Vue.js, .html. css, bootstrap, modalUI, web3.js, Metamask, Firebase
 
@@ -42,13 +38,22 @@
 
 ## 👓Role
 
----
 
-**1.프로젝트 일정 관리 및 팀원 업무 분배(팀장)**
+
+<details>
+<summary>1.프로젝트 일정 관리 및 팀원 업무 분배(팀장)</summary>
+<div markdown="1">
 
 ![1](https://user-images.githubusercontent.com/43032391/212154748-08b3b61c-355e-438d-a216-5bdbf9be46db.png)
 
-**2.프로젝트 설계**
+</div>
+</details>
+
+
+<details>
+<summary>2.프로젝트 설계</summary>
+<div markdown="1">
+
 **- 프로젝트 구조 설계**
 
 ![2](https://user-images.githubusercontent.com/43032391/212154797-b00b731f-d575-4008-bb17-d6db24bfab06.png)
@@ -138,10 +143,17 @@
       (6) 입금한 결과를 표를 통해 프론트앤드로 나타낸다.
 
       (7) 입금과 출금의 차이점은 입금 시에는 deposit 함수를 호출하고 출금 시에는 withdraw 함수를 호출한다.
-        
 
-**3.블록체인 네트워크에 배포되는 스마트컨트랙트와 연동되는 프론트 앤드(Vue.js) 개발**
-  - 메인 화면
+</div>
+</details>
+
+
+        
+<details>
+<summary>3.블록체인 네트워크에 배포되는 스마트컨트랙트와 연동되는 프론트 앤드(Vue.js) 개발</summary>
+<div markdown="1">
+
+ - 메인 화면
 
     ![8](https://user-images.githubusercontent.com/43032391/212155366-f66cbcc4-8e74-414c-a4cb-aa5c359a68a6.png)
 
@@ -165,29 +177,42 @@
 
   ![12](https://user-images.githubusercontent.com/43032391/212155593-e65effd6-ac41-4f01-9f49-ec5d24bd44dc.png)
 
-        
 
-**4.ERC-20 토큰 사이의 임의의 환율을 생성하는 제너레이터(Node.js) 개발**
-    
+</div>
+</details>
+
+        
+<details>
+<summary>4.ERC-20 토큰 사이의 임의의 환율을 생성하는 제너레이터(Node.js) 개발</summary>
+<div markdown="1">
+
 ![13](https://user-images.githubusercontent.com/43032391/212155640-c5beaff4-9019-4376-88e6-ff079a6fafb4.png)
 
-    
-**5.개발 테스트**
-    
+</div>
+</details>
+
+<details>
+<summary>5.개발 테스트</summary>
+<div markdown="1">
+
 ![14](https://user-images.githubusercontent.com/43032391/212155704-d5ede84a-8730-4f98-bf5c-e5cf9ef627a3.png)
 
 
 ![15](https://user-images.githubusercontent.com/43032391/212155748-1c184500-ac44-45fa-8d9a-338330860422.png)
 
     
+</div>
+</details>    
+
+    
+
 
 ## ⭐takeaway
 
----
 
-약 8개월 동안 팀장으로서 프로젝트를 진행하면서 가장 많이 느낀 것은 책임감과 팀워크이다.
-결코 혼자서 프로젝트를 진행했으면 완수를 못 했을 것으로 생각한다.
-그리고, 처음으로 현직자 개발자분들과 협업을 하면서 아주 우물 안의 개구리임을 절실히 느끼고 성장하고 싶고 잘하고 싶다는 생각이 많이 들었다. 이 프로젝트를 계기로 블록체인 기술을 활용하여 진로를 정했어도 괜찮지 않았나 싶기도 하였던 힘들지만 뿌듯하였던 애증의 프로젝트였다.
+약 8개월 동안 팀장으로서 프로젝트를 진행하면서 가장 많이 느낀 것은 책임감과 팀워크입니다. 혼자서 프로젝트를 진행했으면 많은 어려움에 프로젝트 완료를 못했을 것 같습니다.
+
+실무 개발자분로부터 처음 멘토링을 받았는데 우물 안의 개구리임을 절실히 느꼈습니다. 개발자로써 성장하고 싶고 잘하고 싶다는 생각이 많이 들었습니다. 이 프로젝트를 통해 새로운 내용을 배우고 적용하는 것에 대한 두려움을 많이 없앨 수 있었습니다.
 
 **성과**
 
